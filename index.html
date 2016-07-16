@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="materialize/css/materialize.css">
+		<script src="materialize/js/materialize.js"></script>
+		<script type="text/javascript" src="js/design.js"></script>
+	</head>
+	<body>
+		<div id="designer" class="valign-wrapper" style="height: 100%; width: 100%">
+				<div id="toolbox" class="fixed-action-btn valign-wrapper">
+						<a id="tool_wall" class="btn-floating btn-large waves-effect waves-light red valign" style="margin-left: 10px;" onclick="SelectTool(toolbox.tools.WALLS);"><i class="material-icons" style="font-size: 30px">view_comfy</i></a>
+						<a id="tool_wall" class="btn-floating btn-large waves-effect waves-light red valign" style="margin-left: 10px;" onclick="SelectTool(toolbox.tools.DELETE);"><i class="material-icons" style="font-size: 30px">delete</i></a>
+				</div>
+				<svg id="canvas" class="canvas_el" class="valign" width="1000px" height="800px" style="margin-left: auto; margin-right: auto; background-color: #0A5A9F;">
+				</svg>
+		</div>
+	</body>
+</html>
